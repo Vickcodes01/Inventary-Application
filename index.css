@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(0, 0, 0);
+  margin-top: 30px;
+  max-width: 540px;
+  margin-bottom: 70px;
+}
+.container {
+  width: 200px;
+  height: 530px;
+  margin: auto;
+  border: 2px solid white;
+  border-radius: 30px;
+  background-color: rgb(255, 250, 250);
+  padding: 2px;
+  margin-top: 3px;
+  padding-top: 6px;
+  padding-bottom: 1px;
+  max-width: 540px;
+  content: icon;
+  margin-left: px;
+  max-width: 540px;
+  box-sizing: content-box;
+}
+#wrapper {
+  width: 190px;
+  height: 520px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  border: 2px solid white;
+  border-radius: 20px;
+  background-color: rgb(251, 249, 249);
+  margin: auto;
+  padding-bottom: 0px;
+  max-width: 540px;
+}
+.btn {
+  height: 15px;
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+  margin: auto;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: white;
+  padding: 2px;
+  color: white solid;
+  border: 2px white solid;
+}
+.btns {
+  width: 50px;
+  display:grid ;
+  justify-content:space-between ;
+  justify-content: center;
+  margin: auto;
+}
+.btn hr {
+  position: absolute;
+  width: 40px;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-content: space-around;
+  background-color: white;
+  border-radius: 5px;
+  padding: 1px;
+  border: 2px;
+  border-color: rgb(234, 225, 225) solid;
+}
+.haed {
+  height: 50px;
+  background-color: rgb(39, 115, 190);
+  border-bottom: 0;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top: 0%;
+  margin-top: 0px;
+}
+.header i {
+  margin-top: 2px;
+  padding-bottom: px;
+  position: absolute;
+  display: grid;
+  grid-template-rows: px;
+  float: right;
+  justify-content: flex-end;
+  margin-left:150px;
+  margin-right: 5px;
+}
+/* button {
+  font-size:8px;
+  position:relative;
+  margin-left: 128px;
+  margin-top: 18px;
+  padding: 3px;
+  padding-left: 5px;
+  padding-right: 4px;
+  background: white;
+  border-radius: 5px;
+  border: none;
+} */
+.battery {
+  font-size: xx-small;
+  float: left;
+}
+.header {
+  justify-content: space-evenly;
+  color: white;
+  margin-top: 0px;
+  height: 70px;
+  margin-bottom: 0px;
+  
+}
+.header p {
+  margin-left: 10px;
+  justify-content: flex-start;
+  position: absolute;
+  font-size: 10px;
+  font-weight: lighter;
+  font-family: "poppings" sans-serif;
+  margin-top:2px;
+  padding-top: 0px;
+}
+.para {
+  margin-top: 0px;
+  margin-bottom: px;
+  
+}
+#bell {
+  justify-content: flex-start;
+  margin: auto;
+  margin-top: 15px;
+  /* margin-right: 20px; */
+  float: left;
+  font-size: 15px;
+  position: relative;
+  color: rgb(241, 235, 235) ;
+}
+.wifi i {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 100px;
+}
+
+
+.fontsss p {
+  font-size: smaller;
+  font-size:x-small;
+  margin-right: 0px; 
+  padding-right: 0px;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  margin: auto;
+  justify-content: space-around;
+  margin-left: 60px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+
+}
+.h3 {
+  font-size: smaller;
+  font-size: small;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 3px;
+}
+
+
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 170px;
+  padding: 5px;
+  margin-top: 3px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-right: 5px;
+  display: grid;
+  grid-template-columns: 1fr;
+  border: none;
+  background: #f1f1f1;
+}
+label {
+  margin-left: 5px;
+  margin-top: 9px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  outline: none;
+}
+h1 {
+  font-size: 20px;
+
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 10px;
+}
+p {
+  font-size: 12px;
+  margin-top: 9px;
+  margin-bottom: 10px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: 180px;
+  height: 20px;
+  padding-bottom: 20px;
+  padding-top: 5px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+  width: 180px;
+  height: 20px;
+  padding-bottom: 20px;
+  padding-top: 5px;
+
+}
+
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}

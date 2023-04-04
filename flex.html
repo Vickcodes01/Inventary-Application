@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./flex.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <div id="wrapper">
+                <div class="haed" style="background-color: rgb(82, 157, 255);">
+                    <header class="header">
+                        <i class="fa-solid fa-battery-bolt"></i>
+                       <div class="wifi"> <i class="fa-solid fa-wifi" style="font-size: xx-small;"></i></div>
+                        <div class="para"><p>6:55</p></div>
+                        <button class="btn"><hr style="background-color: rgb(236, 228, 228);"></button>
+                       <div> <h3 class="fontsss">  <div id="bell"><i class="fa fa-duotone fa-bell fa-shake" style="margin-left: 10px;"> </i></div> <p> Dashboard</p></h3>  </div>
+                    </header>
+                    <form action="/action_page.php">
+                        <label for="usrname">Username</label>
+                        <input type="text" id="usrname" name="usrname" required>
+                        <label for="usrname">What is your favorite food?</label>
+                        <input type="text" id="usrname" name="usrname" required>
+                        <label for="usrname">Which pet do you like best?</label>
+                        <input type="text" id="usrname" name="usrname" required>
+                        <label for="usrname">Which game do you favor the most?</label>
+                        <input type="text" id="usrname" name="usrname" required>
+                        <label for="usrname">How old are you?</label>
+                        <input type="text" id="usrname" name="usrname" required>
+                        <!-- <label for="psw">Password</label> -->
+                      <!-- <  input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required> -->
+                    
+                        <!-- <input type="submit" value="Submit"> -->
+                        <button class="submit"><a href="./index.html">Submit</a></button>
+                        <button class="href"><hr class="hri"></button>
+                      </form>
+                    </div>
+                    
+                    <div id="message">
+                      <h3>Password must contain the following:</h3>
+                      <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+                      <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+                      <p id="number" class="invalid">A <b>number</b></p>
+                      <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+                      
+                </div>
+</body>
+</html>

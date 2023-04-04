@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(0, 0, 0);
+    margin-top: 30px;
+    max-width: 540px;
+    margin-bottom: 70px;
+}
+.container {
+    width: 200px;
+    height: 430px;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: rgb(255, 250, 250);
+    padding: 2px;
+    margin-top: 3px;
+    padding-top: 6px;
+    padding-bottom: 1px;
+    max-width: 540px;
+    content: icon;
+    margin-left: px;
+    max-width: 540px;
+    box-sizing: content-box;
+}
+#wrapper {
+    width: 190px;
+    height: 420px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgb(251, 249, 249);
+    margin: auto;
+    padding-bottom: 0px;
+    max-width: 540px;
+}
+.btn {
+    height: 15px;
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+    padding: 2px;
+    color: white solid;
+    border: 2px white solid;
+}
+.btns {
+    width: 50px;
+    display:grid ;
+    b
+    justify-content:space-between ;
+    justify-content: center;
+    margin: auto;
+}
+.btn hr {
+    position: absolute;
+    width: 40px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-content: space-around;
+    background-color: white;
+    border-radius: 5px;
+    padding: 1px;
+    border: 2px;
+    border-color: rgb(234, 225, 225) solid;
+}
+.haed {
+    height: 50px;
+    background-color: rgb(39, 115, 190);
+    border-bottom: 0;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top: 0%;
+    margin-top: 0px;
+}
+.header i {
+    margin-top: 2px;
+    padding-bottom: px;
+    position: absolute;
+    display: grid;
+    grid-template-rows: px;
+    float: right;
+    justify-content: flex-end;
+    margin-left:150px;
+    margin-right: 5px;
+}
+/* button {
+    font-size:8px;
+    position:relative;
+    margin-left: 128px;
+    margin-top: 18px;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 4px;
+    background: white;
+    border-radius: 5px;
+    border: none;
+} */
+.battery {
+    font-size: xx-small;
+    float: left;
+}
+.header {
+    justify-content: space-evenly;
+    color: white;
+    margin-top: 0px;
+    height: 70px;
+    
+}
+.header p {
+    margin-left: 10px;
+    justify-content: flex-start;
+    position: absolute;
+    font-size: 10px;
+    font-weight: lighter;
+    font-family: "poppings" sans-serif;
+    margin-top:2px;
+    padding-top: 0px;
+}
+.para {
+    margin-top: 0px;
+    margin-bottom: px;
+    
+}
+#bell {
+    justify-content: flex-start;
+    margin: auto;
+    margin-top: 15px;
+    /* margin-right: 20px; */
+    float: left;
+    font-size: 15px;
+    position: relative;
+    color: rgb(241, 235, 235) ;
+}
+.wifi i {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 100px;
+}
+.header p b {
+    justify-content: center;
+    margin-top: 10px;
+    font-weight: lighter;
+    font: 20px;
+}
+.fa-solid fa-wifi {
+    color: white;
+}
+.fa-solid fa-battery-bolt {
+    color: green;
+
+}
+.fontsss p {
+    font-size: smaller;
+    font-size:x-small;
+    margin-right: 0px; 
+    padding-right: 0px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    margin: auto;
+    justify-content: space-around;
+    margin-left: 60px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+
+}
+.h3 {
+    font-size: smaller;
+    font-size: small;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 3px;
+}
+.fa-box {
+    justify-content: center;
+    background-color:white;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 5px;
+    cursor: all-scroll;
+    cursor: auto;
+}
+.fa-solid fa-box-archive {
+    background-color: rgb(225, 47, 47);
+    color: white;
+}
+.fa-box p{
+    justify-content: flex-start;
+}
+.fa-box p p {
+    justify-content: flex-start;
+}
+/* Style all input fields */
+input {
+    width: 170px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-right: 4px;
+    margin-left: 4px;
+    margin-top: 7px;
+    font-size: xx-small;
+    margin-bottom: 7px;
+  }
+  label {
+    font-size: xx-small;
+    margin-left: 4px;
+  }
+/*   
+  /* Style the submit button */
+  .submit {
+    background-color: #04AA6D;
+    color: white;
+    background-color: #3844ed;
+    width: 170px;
+    /* max-width: 228px; */
+    height: 20px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    margin-top: 5px;
+    border: none;
+    color: white;
+  } 
+  a {
+    color: white;
+  }
+  
+  /* The message box is shown when the user clicks on the password field */
+  #message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: px;
+    font-size: xx-small;
+  }
+  
+  #message p {
+    padding: px px;
+    font-size: xx-small;
+  }
+  .href {
+    background-color: rgb(251, 249, 249);
+    height: 30px;
+    width: 170px;
+    margin-left: 5px;
+    border: none;
+  }
+  .hri {
+    width: 80px;
+    margin-left: 45px;
+    color: gray;
+    border-radius: 20px;
+    border: 1px grey solid;
+    margin-top: 30px;
+  }
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10004;";
+    font-size: xx-small;
+  }
+  
+  /* Add a red text color and an "x" icon when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10006;";
+    font-size: xx-small;
+  }

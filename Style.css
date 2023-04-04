@@ -1,0 +1,448 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(0, 0, 0);
+    margin-top: 30px;
+    max-width: 540px;
+    margin-bottom: 70px;
+}
+.container {
+    width: 200px;
+    height: 530px;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: rgb(255, 250, 250);
+    padding: 2px;
+    margin-top: 3px;
+    padding-top: 6px;
+    padding-bottom: 1px;
+    max-width: 540px;
+    content: icon;
+    margin-left: px;
+    max-width: 540px;
+    box-sizing: content-box;
+}
+#wrapper {
+    width: 190px;
+    height: 520px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgb(251, 249, 249);
+    margin: auto;
+    padding-bottom: 0px;
+    max-width: 540px;
+}
+.btn {
+    height: 15px;
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+    padding: 2px;
+    color: white solid;
+    border: 2px white solid;
+}
+.btns {
+    width: 50px;
+    display:grid ;
+    justify-content:space-between ;
+    justify-content: center;
+    margin: auto;
+}
+.btn hr {
+    position: absolute;
+    width: 40px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-content: space-around;
+    background-color: white;
+    border-radius: 5px;
+    padding: 1px;
+    border: 2px;
+    border-color: rgb(234, 225, 225) solid;
+}
+.haed {
+    height: 50px;
+    background-color: rgb(39, 115, 190);
+    border-bottom: 0;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top: 0%;
+    margin-top: 0px;
+}
+.header i {
+    margin-top: 2px;
+    padding-bottom: px;
+    position: absolute;
+    display: grid;
+    grid-template-rows: px;
+    float: right;
+    justify-content: flex-end;
+    margin-left:150px;
+    margin-right: 5px;
+}
+/* button {
+    font-size:8px;
+    position:relative;
+    margin-left: 128px;
+    margin-top: 18px;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 4px;
+    background: white;
+    border-radius: 5px;
+    border: none;
+} */
+.battery {
+    font-size: xx-small;
+    float: left;
+}
+.header {
+    justify-content: space-evenly;
+    color: white;
+    margin-top: 0px;
+    height: 70px;
+    
+}
+.header p {
+    margin-left: 10px;
+    justify-content: flex-start;
+    position: absolute;
+    font-size: 10px;
+    font-weight: lighter;
+    font-family: "poppings" sans-serif;
+    margin-top:2px;
+    padding-top: 0px;
+}
+.para {
+    margin-top: 0px;
+    margin-bottom: px;
+    
+}
+#bell {
+    justify-content: flex-start;
+    margin: auto;
+    margin-top: 15px;
+    /* margin-right: 20px; */
+    float: left;
+    font-size: 15px;
+    position: relative;
+    color: rgb(241, 235, 235) ;
+}
+.wifi i {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 100px;
+}
+.header p b {
+    justify-content: center;
+    margin-top: 10px;
+    font-weight: lighter;
+    font: 20px;
+}
+.fa-solid fa-wifi {
+    color: white;
+}
+.fa-solid fa-battery-bolt {
+    color: green;
+
+}
+.fontsss p {
+    font-size: smaller;
+    font-size:x-small;
+    margin-right: 0px; 
+    padding-right: 0px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    margin: auto;
+    justify-content: space-around;
+    margin-left: 60px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+
+}
+.h3 {
+    font-size: smaller;
+    font-size: small;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 3px;
+}
+.fa-box {
+    justify-content: center;
+    background-color:white;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 5px;
+    cursor: all-scroll;
+    cursor: auto;
+}
+.fa-solid fa-box-archive {
+    background-color: rgb(225, 47, 47);
+    color: white;
+}
+.fa-box p{
+    justify-content: flex-start;
+}
+.fa-box p p {
+    justify-content: flex-start;
+}
+.fa-truck {
+    justify-content: center;
+    background-color:white;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 3px;
+}
+.font p {
+    font-size: smaller;
+    font-size:x-small;
+    margin-right: 7px; 
+    padding-right: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+    padding-bottom: 7px;
+    margin-left: 35px;
+    margin-top: 5px;
+}
+.fa-truck p p {
+    font-size: smaller;
+    font: 20px;
+    margin-right: 50px;
+}
+.fonts p {
+    font-size: smaller;
+    font-size:x-small;
+    margin-right: 7px; 
+    padding-right: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 35px;
+    margin-top: 5px;
+    padding-bottom: 7px;
+}
+.fa-check {
+    justify-content: center;
+    background-color:white;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 3px;
+}
+.fontt p {
+    font-size: smaller;
+    font-size:x-small;
+    margin-right: 7px; 
+    padding-right: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 35px;
+    margin-top: 5px;
+    padding-bottom: 7px;
+}
+.fa-paper {
+    justify-content: center;
+    background-color:white;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 3px;
+}
+.fontss p {
+    font-size: smaller;
+    font-size:x-small;
+    margin-right: 7px; 
+    padding-right: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:5px;
+    margin-left: 35px;
+    padding-bottom: 7px;
+}
+.fa-paper p {
+    margin-top: 9px;
+    margin-bottom: 5px;
+}
+.h3sum {
+    font-size: medium;
+    font-size: x-small;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 3px;
+}
+.h3sum p {
+    font-size: small;
+    font-size: xx-small;
+    margin-left: 3px;
+    font-weight: lighter;
+}
+
+
+.cont-in {
+    display: flex;
+    float: left;
+    justify-content: flex-start;
+    background-color: white;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-left: 
+    justify-content: right;
+}
+.cont-in div {
+    border-left: 5px;
+    border-color: blue solid 5px;
+    margin-left: 5px;
+    margin-top: 
+    margin-bottom: 5px;
+}
+.cont-in h3 {
+    font-size: smaller;
+    font: 20px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+    margin-right: 16px;
+    margin-top: 7px;
+    margin-left:3px;
+    border-left: 1px blue solid;
+    grid-row: 1;
+    display: grid;
+    gap: 3px;
+}
+.cont-in h3 p {
+    font-size: smaller;
+    font: 20px;
+    margin-bottom:2px;
+    margin-left: 3px;
+    margin-right: 13px;
+}
+.cont-in h3 p p {
+    font-size: smaller;
+    font: 20px;
+    margin-bottom:0;
+    margin-left: 3px;
+}
+.cont-to {
+    display: flex;
+    float: right;
+    justify-content: flex-end;
+    background-color: white;
+    margin-left: 0;
+    margin-right: 4px;
+    border-left:0px;
+    justify-content: right;
+    margin-bottom: 9px;
+}
+.cont-to div {
+    border-left: 5px;
+    border-color: red solid 5px;
+    margin-left: 5px;
+    margin-top: 
+    margin-bottom: 5px;
+}
+.cont-to h3 {
+    font-size: smaller;
+    font: 20px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+    margin-right: 12px;
+    margin-top: 7px;
+    margin-left:5px;
+    border-left: 1px red solid;
+    grid-row: 1;
+    display: grid;
+    gap: 3px;
+}
+.cont-to h3 p {
+    font-size: smaller;
+    font: 20px;
+    margin-bottom:2px;
+    margin-left: 3px;
+}
+.cont-to h3 p p {
+    font-size: smaller;
+    font: 20px;
+    margin-bottom:0;
+    margin-left: 3px;
+}
+.footer {
+    height: 65px;
+    width: 185px;
+    display: flex;
+    justify-content:space-evenly;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px ;
+    margin-top: 75px;
+    margin-bottom: 0;
+    padding-bottom: 0px;
+    padding-top: 2px;
+    margin-left: 3px;
+    margin: auto;
+    justify-content: baseline;
+}
+.footer p {
+    font-size: 5px;
+    margin-left: 1px;
+    justify-content: center;
+    margin-right: 3px;
+}
+
+.footer i {
+    font-size: 12px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.icon-div i {
+    background-color: rgb(80, 201, 24);
+    border-radius: 12px;
+    padding: 5px;
+    color: white;
+    margin: auto;
+    justify-content: center;
+    margin-left: 6px;
+}
+.horizontal {
+    
+    position: absolute;
+    width: 70px;
+    margin-bottom: 1px;
+    justify-content: center;
+    align-content: space-around;
+    background-color: rgb(176, 164, 164);
+    border-radius: 1px;
+    padding: 1px;
+    border: 1px;
+    border-color: rgb(234, 225, 225) solid;
+    margin-left: 5px;
+    margin-top: 18px;
+    
+}
+.but {
+    margin: auto;
+    justify-content: center;
+    margin-right: 20px;
+    margin-top: 42px;
+    position: absolute;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10px;
+}
